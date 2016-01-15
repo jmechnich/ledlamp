@@ -1,8 +1,8 @@
 Arduino project for an WS2812-based LED lamp, controlled by an encoder with a push-button.
 
 ## Features
-* Double-click switches lamp on/off
-* Long press cycles color modes: HSV (power-on default), HSL, RGB, Maximum white. The selected mode is indicated by the encoder LED.
+* Double-click switches lamp on/off.
+* Long press cycles color modes: HSV (power-on default), HSL, RGB, maximum white. The selected mode is indicated by the encoder LED.
 * Single-click cycles colorspace components. The selected component is indicated by the encoder LED.
 * Encoder rotation changes the selected colorspace component.
 
@@ -18,4 +18,4 @@ Arduino project for an WS2812-based LED lamp, controlled by an encoder with a pu
 * [adafruit NeoPixel Ring w/ 24 Leds](https://www.adafruit.com/products/1586)
  
 ## Wishlist
-* Add a mode for running pre-defined programs (e.g. rainbow pattern, scanners, etc.)
+* Add a mode for running pre-defined programs (e.g. rainbow pattern, scanners, etc.).
