@@ -36,7 +36,7 @@ public:
       TIMER, LEFT, RIGHT, LPRESS, CLICK, DCLICK
   };
 
-  ~Encoder
+  ~Encoder()
         {
           delete _encoder;
         }
