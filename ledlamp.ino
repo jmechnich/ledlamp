@@ -180,7 +180,7 @@ void nextPreset()
 /*-------------------------------------------------------------------------
  *  Encoder handlers
  *-------------------------------------------------------------------------*/
-bool toggleOn() {
+void toggleOn() {
   isOn = !isOn;
   if(isOn) {
     startFade(rgbsave);
